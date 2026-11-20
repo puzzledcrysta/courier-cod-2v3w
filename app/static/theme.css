@@ -1,0 +1,16 @@
+/* 应付 · 实收 */
+:root {
+  color-scheme: dark;
+  --bg: #181a2e; --rail: #252b46; --accent: #a3aefa; --ink: #e9e9ff;
+  --panel: color-mix(in srgb, var(--bg) 91%, white);
+  --line: color-mix(in srgb, var(--ink) 24%, var(--bg));
+  --mute: color-mix(in srgb, var(--ink) 78%, var(--bg));
+  --th: color-mix(in srgb, var(--panel) 84%, var(--accent));
+  --rail-ink: #f2f0e9;
+  --primary: #151919;
+  --bad: #ffb9bd;
+  --ui: Georgia, serif; --mono: ui-monospace, Menlo, monospace;
+  --pad: 15px; --row: 34px; --gap: 10px;
+  --figure: 24px; --title: 36px; --graph: 60px;
+  --scroll: 315px;
+}
